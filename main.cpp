@@ -21,7 +21,10 @@ int main( void )
   } else if (choice == "epe")
   {
     elasticPotentialEnergy();
-  } else
+  } else if(choice == "gpe")
+  {
+    gravitationalPotentialEnergy();
+  }else
   {
     std::cout << "I don't think i know that equation, try again?" << std::endl;
   }

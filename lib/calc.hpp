@@ -1,6 +1,8 @@
 #ifndef _CALC_H
 #define _CALC_H
 
+#include <cmath>
+
 void kineticEnergy( void )
 {
   // kinetic energy = 0.5 × mass × (speed)^2 
@@ -30,7 +32,7 @@ void elasticPotentialEnergy( void )
 
   elasticPotentialEnergy = (0.5 * springConstant) * pow(extension, 2);
 
-  std::cout "Elastic Potential Energy : " << elasticPotentialEnergy << std::endl;
+  std::cout << "Elastic Potential Energy : " << elasticPotentialEnergy << std::endl;
 }
 
 void gravitationalPotentialEnergy( void )
@@ -49,7 +51,7 @@ void gravitationalPotentialEnergy( void )
 
   gravitationalPotentialEnergy = mass * gravitationalFieldStrength * height;
 
-  std::cout "Gravitational potential energy : " << gravitationalPotentialEnergy << std::endl;
+  std::cout << "Gravitational potential energy : " << gravitationalPotentialEnergy << std::endl;
 }
 
 void changeInThermalENergy( void )
