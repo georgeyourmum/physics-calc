@@ -1,10 +1,10 @@
-### Hi! This is my C++ calculator!
+### Hi! This is my C++ physics calculator!
 
 ---
 
 ## Instructions:
 > clone repo </br>
-> g++ -o `(desired executable name)` hello.cpp </br>
+> g++ -o `(desired executable name)` main.cpp </br>
 >the end.
 
 ---
